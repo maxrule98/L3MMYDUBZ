@@ -1,0 +1,20 @@
+.flex {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex--row {
+    flex-direction: row;
+}
+
+.flex--col {
+    flex-direction: column;
+}
+
+/* @media (min-width: 800px) {
+    .flex--row {
+        flex-direction: row;
+    }
+} */
